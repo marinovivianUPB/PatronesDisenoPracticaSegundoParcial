@@ -6,6 +6,7 @@ public class Memento {
 
     public Memento(Tesis tesis, String fecha){
         this.tesis = tesis;
+        this.fecha = fecha;
     }
 
     

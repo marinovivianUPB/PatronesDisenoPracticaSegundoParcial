@@ -7,9 +7,10 @@ public class Computadora {
 
     private Map<String, Memento> versionesTesis = new HashMap<>();
 
-    public Computadora addVersionTesis(Memento memento, String fecha){
+    public Computadora addVersionTesis(Memento memento){
         System.out.println("GUARDANDO TESIS...");
-        versionesTesis.put(fecha, memento);
+        versionesTesis.put(memento.getFecha(), memento);
+        memento.getTesis().show();
         return this;
     }
 
