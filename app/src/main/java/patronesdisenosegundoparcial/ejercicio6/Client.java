@@ -2,6 +2,9 @@ package patronesdisenosegundoparcial.ejercicio6;
 
 public class Client {
     public static void main(String[] args) {
+
+        //OBSERVER MEDIATOR Y STRATEGY
+
         Chat c = new Chat();
 
         Desarrollador p0 = new Desarrollador("Alan", "1").setCanalComunicacion(c);
